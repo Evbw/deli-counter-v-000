@@ -9,7 +9,7 @@ def line(katz_deli)
       katz_deli.each_with_index do |name, index|
        " #{index + 1}. #{name}"
       end
-      puts "The line is currently: #{}"
+      puts "The line is currently: #{list}"
   end
 end
 
